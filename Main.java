@@ -96,7 +96,7 @@ public class Main {
                 if (grafito.lista.contains(origen) && grafito.lista.contains(destino)) {
                     Double distanciaTotal = grafito.getDistanciaMinima(origen, destino);
                     if (distanciaTotal != Double.POSITIVE_INFINITY) {
-                        System.out.println("La distancia minima entre: " +  origen  + "y" +  destino  + "es de:" +  distanciaTotal  + "km");
+                        System.out.println("La distancia minima entre: " +origen+"y"+destino+"es de:"+distanciaTotal+"km");
                     }
                     else {
                         System.out.println("Ciudades no encontradas");
